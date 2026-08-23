@@ -1,0 +1,67 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Configuration",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "DLC Content",
+          "Description": [
+            "Select DLC Installed if the Sonic Unleashed DLC stage packs are installed. HedgeModManager cannot detect this automatically."
+          ],
+          "Type": "DLCContent",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./WorldMap/NoDLC/"
+        },
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "UnleasHD Compatibility",
+          "Description": [
+            "Enable this only when the UnleasHD mod is active. Keep Sonic Unleashed Retranslated above UnleasHD in the mod loader."
+          ],
+          "Type": "UnleasHDCompat",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Disabled/"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "DLCContent": [
+      {
+        "DisplayName": "No DLC",
+        "Value": "./WorldMap/NoDLC/",
+        "Description": [
+          "Uses the base-game stage list and base-game credits."
+        ]
+      },
+      {
+        "DisplayName": "DLC Installed",
+        "Value": "./WorldMap/HasDLC/",
+        "Description": [
+          "Uses the combined stage data for all six DLC packs and the DLC credits layout."
+        ]
+      }
+    ],
+    "UnleasHDCompat": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Disabled/",
+        "Description": [
+          "Uses the standard-resolution interface graphics."
+        ]
+      },
+      {
+        "DisplayName": "Enabled",
+        "Value": "./UnleasHD_Compat/",
+        "Description": [
+          "Uses compatibility graphics derived from UnleasHD by pupsi, with permission."
+        ]
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
