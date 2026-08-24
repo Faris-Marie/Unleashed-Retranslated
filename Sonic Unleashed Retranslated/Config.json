@@ -24,7 +24,7 @@
           "Type": "UnleasHDCompat",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": "./Disabled/"
+          "DefaultValue": "./UnleasHD_Compat/Disabled/"
         }
       ]
     }
@@ -49,7 +49,7 @@
     "UnleasHDCompat": [
       {
         "DisplayName": "Disabled",
-        "Value": "./Disabled/",
+        "Value": "./UnleasHD_Compat/Disabled/",
         "Description": [
           "Uses the standard-resolution interface graphics."
         ]
