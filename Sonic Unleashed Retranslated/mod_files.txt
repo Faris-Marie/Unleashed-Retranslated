@@ -345,6 +345,7 @@ add UnleasHD_Compat/Languages/English/+SonicActionCommon.ar.00
 add UnleasHD_Compat/Languages/English/+SonicActionCommon.arl
 add UnleasHD_Compat/Languages/English/+WorldMap.ar.00
 add UnleasHD_Compat/Languages/English/+WorldMap.arl
+add Disabled/.keep
 add WorldMap/HasDLC/Languages/English/+WorldMap.ar.00
 add WorldMap/HasDLC/Languages/English/+WorldMap.arl
 add WorldMap/NoDLC/Languages/English/+WorldMap.ar.00
