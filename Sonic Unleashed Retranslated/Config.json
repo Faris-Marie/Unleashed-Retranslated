@@ -5,6 +5,17 @@
       "DisplayName": "Configuration",
       "Elements": [
         {
+          "Name": "IncludeDir0",
+          "DisplayName": "UnleasHD Compatibility",
+          "Description": [
+            "Enable this only when the UnleasHD mod is active. Keep Sonic Unleashed Retranslated above UnleasHD in the mod loader."
+          ],
+          "Type": "UnleasHDCompat",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Disabled/"
+        },
+        {
           "Name": "IncludeDir1",
           "DisplayName": "DLC Content",
           "Description": [
@@ -14,17 +25,6 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": "./WorldMap/NoDLC/"
-        },
-        {
-          "Name": "IncludeDir0",
-          "DisplayName": "UnleasHD Compatibility",
-          "Description": [
-            "Enable this only when the UnleasHD mod is active. Keep Sonic Unleashed Retranslated above UnleasHD in the mod loader."
-          ],
-          "Type": "UnleasHDCompat",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": "./UnleasHD_Compat/Disabled/"
         }
       ]
     }
@@ -49,7 +49,7 @@
     "UnleasHDCompat": [
       {
         "DisplayName": "Disabled",
-        "Value": "./UnleasHD_Compat/Disabled/",
+        "Value": "./Disabled/",
         "Description": [
           "Uses the standard-resolution interface graphics."
         ]
